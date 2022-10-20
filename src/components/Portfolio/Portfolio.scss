@@ -1,0 +1,113 @@
+@media screen and (min-width: 876px){
+  .portfolio{
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+      font-size: 4em;
+    }
+    .container{
+      margin-top: 3em;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-evenly;
+      .portfolioCard{
+        width: 40%;
+        transition: .2s all linear;
+        border-radius: 10px;
+        &:hover{
+          transform: scale(1.05);
+        }
+        img{
+          border-radius: 10px;
+          width: 100%;
+        }
+        a{
+          text-decoration: none;
+          color: inherit;
+        }
+        .cardInfo{
+          padding: .5em .75em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 875px){
+  .portfolio{
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+      font-size: 4em;
+    }
+    .container{
+      margin-top: 3em;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-evenly;
+      .portfolioCard{
+        width: 45%;
+        transition: .2s all linear;
+        border-radius: 10px;
+        &:hover{
+          transform: scale(1.05);
+        }
+        img{
+          border-radius: 10px;
+          width: 100%;
+        }
+        a{
+          text-decoration: none;
+          color: inherit;
+        }
+        .cardInfo{
+          padding: .5em .75em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 670px){
+  .portfolio{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+      font-size: 4em;
+    }
+    .container{
+      margin-top: 3em;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2.5em;
+      .portfolioCard{
+        width: 65%;
+        transition: .2s all linear;
+        border-radius: 10px;
+        &:hover{
+          transform: scale(1.05);
+        }
+        img{
+          border-radius: 10px;
+          width: 100%;
+        }
+        a{
+          text-decoration: none;
+          color: inherit;
+        }
+        .cardInfo{
+          padding: .5em .75em;
+        }
+      }
+    }
+  }
+}

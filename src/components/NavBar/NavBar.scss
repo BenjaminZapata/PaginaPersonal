@@ -1,0 +1,84 @@
+$blue: #349dff;
+
+@media screen and (min-width: 876px){
+    nav{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        flex-direction: row;
+        gap: 5em;
+        justify-content: center;
+        button{
+            border: none;
+            height: 6em;
+            background: none;
+            font-family: 'Open Sans', sans-serif;
+            transition: all .1s linear;
+            span{
+                font-size: 4em;
+                font-weight: 800;
+            }
+        }
+        .activepage{
+            border-bottom: 5px -webkit-linear-gradient(to right, #5433ff, #20bdff, #a5fecb) solid;
+        }
+        button:hover{
+            transform: translateY(-.35em);
+            color: $blue;
+        }
+    }
+}
+
+@media screen and (max-width: 875px){
+    nav{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        flex-direction: row;
+        gap: 3.5em;
+        justify-content: center;
+        button{
+            border: none;
+            height: 6em;
+            background: none;
+            font-family: 'Open Sans', sans-serif;
+            transition: all .1s linear;
+            font-size: .8em;
+            span{
+                font-size: 3em;
+                font-weight: 800;
+            }
+        }
+        button:hover{
+            transform: translateY(-.5em);
+            color: $blue;
+        }
+    }
+}
+
+@media screen and (max-width: 670px){
+    nav{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        gap: 1.5em;
+        justify-content: center;
+        button{
+            border: none;
+            height: 6em;
+            background: none;
+            font-family: 'Open Sans', sans-serif;
+            transition: all .1s linear;
+            font-size: .7em;
+            span{
+                font-size: 3em;
+                font-weight: 800;
+            }
+        }
+        button:hover{
+            transform: translateY(-.5em);
+            color: $blue;
+        }
+    }
+}
